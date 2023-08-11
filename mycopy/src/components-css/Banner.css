@@ -112,10 +112,21 @@
     }
 }
 
+@media only screen and (max-width: 645px){
+
+    .main-ad-div{
+        display: flex;
+        margin-left: 5%;
+        justify-content: center;
+        align-items:center;
+    }
+
+}
+
 @media only screen and (max-width: 500px) {
     .main-ad-div{
         display: flex;
-        margin-left: 1.5%;
+        margin-left: 2%;
         justify-content: center;
         align-items:center;
     }
@@ -129,3 +140,4 @@
         width:350px;
     }
 }
+

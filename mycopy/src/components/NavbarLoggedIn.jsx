@@ -11,10 +11,10 @@ function NavbarLoggedIn() {
                     <img src={navlogo} alt="" />
                 </Link>
                 <div className='nav-link'>
-                    <a href="">Home</a>
-                    <a href="">Menu</a>
-                    <a href="">Contact</a>
-                    <a href="">About us</a>
+                    <Link to="/">Home</Link>
+                    <Link to="/menu">Menu</Link>
+                    <Link to="/contact">Contact</Link>
+                    <Link to="/about">About us</Link>
                 </div>
             </nav>
         </>

@@ -1,5 +1,6 @@
 .footer{
     height: 150px;
+    width:100%;
     background-color: ghostwhite;
     border-top : 2px dashed gray;
 }
